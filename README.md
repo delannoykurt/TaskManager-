@@ -1,3 +1,4 @@
+![Capture d’écran 2025-04-17 à 05.47.07](assets/Capture%20d%E2%80%99e%CC%81cran%202025-04-17%20a%CC%80%2005.47.07.png)
 # 🗂️ TaskManager++
 
 Un petit gestionnaire de tâches en ligne de commande, écrit en C++, pour t'organiser simplement et proprement.  
