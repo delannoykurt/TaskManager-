@@ -1,0 +1,110 @@
+\doxysection{Task Class Reference}
+\hypertarget{class_task}{}\label{class_task}\index{Task@{Task}}
+
+
+Classe représentant une tâche dans le gestionnaire.  
+
+
+
+
+{\ttfamily \#include $<$Task.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_task_a37fc1486b71d4915d816beae65626cd0}{Task}} (const std\+::string \&title, int priority)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \doxylink{class_task}{Task}. \end{DoxyCompactList}\item 
+\Hypertarget{class_task_a3f2389c1675042f7cbac503cba384f04}\label{class_task_a3f2389c1675042f7cbac503cba384f04} 
+void {\bfseries mark\+Done} ()
+\begin{DoxyCompactList}\small\item\em Marque la tâche comme accomplie. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_task_af25bc8ce072bab5bb4676deabc6ec495}{is\+Done}} () const
+\begin{DoxyCompactList}\small\item\em Vérifie si la tâche est accomplie. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_task_a85c31b536e5c92719636e1c65b7b74de}{get\+Title}} () const
+\begin{DoxyCompactList}\small\item\em Retourne le titre de la tâche. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_task_adf87b0c5cebcf623ecf56cea17c6fede}{get\+Priority}} () const
+\begin{DoxyCompactList}\small\item\em Retourne la priorité de la tâche. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_task_a7fe5cb7b57a21693e7abfea2f9618563}{to\+String}} () const
+\begin{DoxyCompactList}\small\item\em Retourne une représentation texte de la tâche. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe représentant une tâche dans le gestionnaire. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_task_a37fc1486b71d4915d816beae65626cd0}\index{Task@{Task}!Task@{Task}}
+\index{Task@{Task}!Task@{Task}}
+\doxysubsubsection{\texorpdfstring{Task()}{Task()}}
+{\footnotesize\ttfamily \label{class_task_a37fc1486b71d4915d816beae65626cd0} 
+Task\+::\+Task (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title}{, }\item[{int}]{priority}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \doxylink{class_task}{Task}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Titre de la tâche \\
+\hline
+{\em priority} & Priorité de la tâche \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_task_adf87b0c5cebcf623ecf56cea17c6fede}\index{Task@{Task}!getPriority@{getPriority}}
+\index{getPriority@{getPriority}!Task@{Task}}
+\doxysubsubsection{\texorpdfstring{getPriority()}{getPriority()}}
+{\footnotesize\ttfamily \label{class_task_adf87b0c5cebcf623ecf56cea17c6fede} 
+int Task\+::get\+Priority (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne la priorité de la tâche. 
+
+\begin{DoxyReturn}{Returns}
+Entier représentant la priorité. 
+\end{DoxyReturn}
+\Hypertarget{class_task_a85c31b536e5c92719636e1c65b7b74de}\index{Task@{Task}!getTitle@{getTitle}}
+\index{getTitle@{getTitle}!Task@{Task}}
+\doxysubsubsection{\texorpdfstring{getTitle()}{getTitle()}}
+{\footnotesize\ttfamily \label{class_task_a85c31b536e5c92719636e1c65b7b74de} 
+std\+::string Task\+::get\+Title (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne le titre de la tâche. 
+
+\begin{DoxyReturn}{Returns}
+Titre sous forme de chaîne de caractères. 
+\end{DoxyReturn}
+\Hypertarget{class_task_af25bc8ce072bab5bb4676deabc6ec495}\index{Task@{Task}!isDone@{isDone}}
+\index{isDone@{isDone}!Task@{Task}}
+\doxysubsubsection{\texorpdfstring{isDone()}{isDone()}}
+{\footnotesize\ttfamily \label{class_task_af25bc8ce072bab5bb4676deabc6ec495} 
+bool Task\+::is\+Done (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Vérifie si la tâche est accomplie. 
+
+\begin{DoxyReturn}{Returns}
+true si la tâche est accomplie, false sinon. 
+\end{DoxyReturn}
+\Hypertarget{class_task_a7fe5cb7b57a21693e7abfea2f9618563}\index{Task@{Task}!toString@{toString}}
+\index{toString@{toString}!Task@{Task}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily \label{class_task_a7fe5cb7b57a21693e7abfea2f9618563} 
+std\+::string Task\+::to\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne une représentation texte de la tâche. 
+
+\begin{DoxyReturn}{Returns}
+Chaîne de caractères représentant la tâche. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Task.\+hpp\end{DoxyCompactItemize}
